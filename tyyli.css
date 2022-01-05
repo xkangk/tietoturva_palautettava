@@ -12,17 +12,18 @@
     padding: 10px;
     width: 100px;
     color: white;
-    background-color: lightblue;
+    background-color: rgb(72, 138, 160);
     border: none;
 }
 
 #box{
 
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(184, 184, 184);
     margin: auto;
     width: 500px;
     padding: 20px;
 }
-#box table, tr, td {
-    border: 1px solid black;
+
+#table, tr, td {
+    border: 1px dashed black;
   }
