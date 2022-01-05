@@ -20,6 +20,9 @@
 
     background-color: rgb(190, 190, 190);
     margin: auto;
-    width: 300px;
+    width: 500px;
     padding: 20px;
 }
+#box table, tr, td {
+    border: 1px solid black;
+  }

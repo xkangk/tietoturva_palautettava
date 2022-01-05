@@ -1,4 +1,7 @@
 <?php
+session_start();
+$username = $_SESSION["username"];
+
 $conn=mysqli_connect("localhost","root","","n0jaka00");
 if(!$conn){
    die('Could not Connect My Sql:');
@@ -7,7 +10,7 @@ if(isset($_POST['save']))
 {	 
 	 $first_name = $_POST['first_name'];
 	 $last_name = $_POST['last_name'];
-	 $username = $_POST['username'];
+	 $username = $username;
 	 $email = $_POST['email'];
 	 $phone = $_POST['phone'];
 

@@ -3,6 +3,7 @@
  session_start();  
   if(!isset($_SESSION["username"]))  
  { 
+      
   } 
  
  
@@ -36,9 +37,9 @@
 		Sukunimi:<br>
 		<input type="text" name="last_name">
 		<br>
-		Käyttäjätunnus:<br>
+<!-- 		Käyttäjätunnus:<br>
 		<input type="text" name="username">
-		<br>
+		<br> -->
 		Sähköposti:<br>
 		<input type="email" name="email">
         <br>
